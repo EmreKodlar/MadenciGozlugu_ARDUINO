@@ -106,8 +106,8 @@ void loop() {
       delay(2000);
       }
       if(lpgDegeri>1000){        // LPG gazını oluşturan Propan gazının Alt Patlama Limiti %2.1 hacimsel
-      // üst patlama limiti ise % 9.5, Bütan gazının Alt Patlama Limiti %1.8 hacimsel, üst patlama limiti ise % 9.5 hacimseldir.
-      // Yani alt limit 1,8x500ppm= 900
+      // üst patlama limiti ise % 9.5, Bütan gazının Alt Patlama Limiti %2 hacimsel, üst patlama limiti ise % 9.5 hacimseldir.
+      // Yani alt limit 2x500ppm= 1000
       //kaynak: https://www.maden.org.tr/genel/bizden_detay.php?kod=8735
         //--------oled uyarı---
       display.clearDisplay();
